@@ -21,7 +21,7 @@ export default async function RootLayout({ children }) {
           enableSystem={true}
           disableTransitionOnChange={true}
         >
-          <div className="w-[95vw] md:w-[90vw] lg:w-[1068px] overflow-hidden">
+          <div className="w-[95vw] md:w-[90vw] lg:w-[1068px]">
             {children}
           </div>
         </ThemeProvider>

@@ -4,7 +4,6 @@ import React from 'react'
 import { APP_NAME } from '@/lib/constants'
 import Menu from './Menu'
 
-
 function Header() {
     return (
         <div className="w-full border-b">
